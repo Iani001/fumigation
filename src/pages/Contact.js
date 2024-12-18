@@ -11,7 +11,7 @@ const ContactUs = () => {
             <div style={{ ...styles.banner, backgroundImage: 'url("/images/contact.jpg")' }}>
                 <h1 style={styles.bannerHeading}>Contact Us</h1>
                 <p style={styles.bannerSubheading}>
-                    We love hearing from you! Get in touch with Jabreel Cleaners and Pest Control
+                    We love hearing from you! Get in touch with Jibreel Cleaners and Pest Control
                 </p>
             </div>
 

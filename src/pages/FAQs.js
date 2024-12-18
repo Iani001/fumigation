@@ -11,23 +11,23 @@ const FAQ = () => {
 
     const faqData = [
         {
-            question: "What services does Jabreel offer?",
-            answer: "Jabreel specializes in providing cutting-edge solutions, including web development, IT consulting, cybersecurity services, and custom software development tailored to your needs.",
+            question: "What services does Jibreel offer?",
+            answer: "Jibreel specializes in providing cutting-edge solutions, including web development, IT consulting, cybersecurity services, and custom software development tailored to your needs.",
         },
         {
-            question: "Why should I choose Jabreel for my IT needs?",
-            answer: "Jabreel is committed to delivering innovative, reliable, and cost-effective solutions. Our team of experts ensures top-notch quality, customer satisfaction, and timely project delivery.",
+            question: "Why should I choose Jibreel for my cleaning needs?",
+            answer: "Jibreel is committed to delivering innovative, reliable, and cost-effective solutions. Our team of experts ensures top-notch quality, customer satisfaction, and timely project delivery.",
         },
         {
-            question: "How does Jabreel ensure data security for its clients?",
+            question: "How does Jibreel ensure data security for its clients?",
             answer: "We prioritize data security by implementing robust encryption, multi-layer access controls, and strict compliance with data protection regulations to safeguard your information.",
         },
         {
-            question: "Can Jabreel help my business transition to the cloud?",
-            answer: "Absolutely! Jabreel offers comprehensive cloud migration services, ensuring a smooth transition to cloud-based solutions while maintaining operational continuity and security.",
+            question: "Can Jibreel help my business transition to the cloud?",
+            answer: "Absolutely! Jibreel offers comprehensive cloud migration services, ensuring a smooth transition to cloud-based solutions while maintaining operational continuity and security.",
         },
         {
-            question: "How can I get started with Jabreel?",
+            question: "How can I get started with Jibreel?",
             answer: "Getting started is easy! Simply visit our Contact page, fill out the inquiry form, and one of our experts will reach out to discuss your project and provide a customized solution.",
         },
     ];

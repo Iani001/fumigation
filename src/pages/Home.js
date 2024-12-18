@@ -15,10 +15,10 @@ const Home = () => {
            <div style={ styles.banner}>
             <img 
         src="images/L.jpg" 
-        alt="Jabreel Cleaners and Pest Control" 
+        alt="Jibreel Cleaners and Pest Control" 
         style={styles.bannerImage} 
     />
-    <h1 style={styles.bannerHeading}>Jabreel Cleaners and Pest Control</h1>
+    <h1 style={styles.bannerHeading}>Jibreel Cleaners and Pest Control</h1>
     
     <div>
     <p style={styles.bannerP}>
@@ -33,10 +33,10 @@ const Home = () => {
             <div style={styles.container}>
                 
 
-                <h2 style={styles.subheading}>Welcome to Jabreel – Empowering Innovation and Excellence</h2>
+                <h2 style={styles.subheading}>Welcome to Jibreel – Empowering Innovation and Excellence</h2>
 
                 <p style={styles.description}>
-                     At Jabreel, we’re passionate about driving growth and transforming ideas into impactful solutions. As a forward-thinking company, we blend cutting-edge technology with unmatched expertise to deliver tailored solutions that align with your unique goals.
+                     At Jibreel, we’re passionate about driving growth and transforming ideas into impactful solutions. As a forward-thinking company, we blend cutting-edge technology with unmatched expertise to deliver tailored solutions that align with your unique goals.
 
 Our focus goes beyond meeting expectations—we aim to exceed them by fostering collaboration, innovation, and excellence at every step of your journey. Whether you’re looking to streamline your operations, enhance your online presence, or develop sustainable strategies, we are your trusted partner in achieving success.
 
@@ -53,7 +53,7 @@ Let us guide you toward a future of endless possibilities. Together, we’ll bui
                     {/* <img src="/images/matu.jpg" alt="our approach" style={styles.image} /> */}
                     <div style={styles.textContainer}>
                 <p style={styles.description}>
-                    At Jabreel, our approach is rooted in a deep commitment to understanding and addressing the unique needs of every client. We prioritize collaboration, transparency, and adaptability, ensuring our strategies and solutions align perfectly with your goals. By combining cutting-edge technology with a meticulous attention to detail, we craft personalized, scalable solutions that empower businesses to thrive in an ever-evolving digital landscape. Our process begins with a thorough consultation to analyze your objectives, challenges, and opportunities. We then employ a structured yet flexible methodology that emphasizes agile development, continuous improvement, and timely delivery. Leveraging the latest advancements in technology and industry best practices, we remain proactive in identifying potential risks and opportunities, ensuring the highest levels of efficiency, security, and reliability. Ultimately, our goal is to build lasting partnerships founded on trust, mutual success, and a shared commitment to excellence. At Jabreel, we don’t just deliver services—we deliver value, helping our clients achieve sustainable growth and maintain a competitive edge in their industries.
+                    At Jibreel, our approach is rooted in a deep commitment to understanding and addressing the unique needs of every client. We prioritize collaboration, transparency, and adaptability, ensuring our strategies and solutions align perfectly with your goals. By combining cutting-edge technology with a meticulous attention to detail, we craft personalized, scalable solutions that empower businesses to thrive in an ever-evolving digital landscape. Our process begins with a thorough consultation to analyze your objectives, challenges, and opportunities. We then employ a structured yet flexible methodology that emphasizes agile development, continuous improvement, and timely delivery. Leveraging the latest advancements in technology and industry best practices, we remain proactive in identifying potential risks and opportunities, ensuring the highest levels of efficiency, security, and reliability. Ultimately, our goal is to build lasting partnerships founded on trust, mutual success, and a shared commitment to excellence. At Jibreel, we don’t just deliver services—we deliver value, helping our clients achieve sustainable growth and maintain a competitive edge in their industries.
                 </p>
             </div></div></div>
 

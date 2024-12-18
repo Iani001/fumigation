@@ -22,7 +22,7 @@ const AboutUs = () => {
                         <img src="/images/people.jpg" alt="Who We Are" style={styles.image} />
                         <div style={styles.textContainer}>
                             <p style={styles.paragraph}>
-                                At Jabreel Fumigation Services, we are more than just a cleaning and pest control company; we are your dedicated partners in ensuring a healthier, cleaner, and safer environment. Founded with a commitment to excellence, our mission is to redefine industry standards through innovation, professionalism, and attention to detail. Our team comprises highly skilled professionals who bring years of expertise in cleaning and fumigation. We prioritize eco-friendly methods and cutting-edge technology to offer solutions tailored to your specific needs. Whether it’s your home or workplace, we ensure a spotless and pest-free environment that fosters comfort and peace of mind.
+                                At Jibreel Fumigation Services, we are more than just a cleaning and pest control company; we are your dedicated partners in ensuring a healthier, cleaner, and safer environment. Founded with a commitment to excellence, our mission is to redefine industry standards through innovation, professionalism, and attention to detail. Our team comprises highly skilled professionals who bring years of expertise in cleaning and fumigation. We prioritize eco-friendly methods and cutting-edge technology to offer solutions tailored to your specific needs. Whether it’s your home or workplace, we ensure a spotless and pest-free environment that fosters comfort and peace of mind.
                             </p>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const AboutUs = () => {
                         <img src="/images/p.jpeg" alt="Our Mission" style={styles.image} />
                         <div style={styles.textContainer}>
                             <p style={styles.paragraph}>
-                                Our mission is rooted in providing unparalleled cleaning and pest control solutions that not only meet but exceed our clients' expectations. We are committed to delivering high-quality services that enhance the safety and hygiene of residential, commercial, and industrial spaces. At Jabreel, we focus on sustainability, utilizing eco-conscious products and practices that ensure long-term benefits for both our clients and the environment. We understand the importance of trust and reliability, which is why we strive to build lasting relationships with our clients through outstanding customer service and dependable solutions.
+                                Our mission is rooted in providing unparalleled cleaning and pest control solutions that not only meet but exceed our clients' expectations. We are committed to delivering high-quality services that enhance the safety and hygiene of residential, commercial, and industrial spaces. At Jibreel, we focus on sustainability, utilizing eco-conscious products and practices that ensure long-term benefits for both our clients and the environment. We understand the importance of trust and reliability, which is why we strive to build lasting relationships with our clients through outstanding customer service and dependable solutions.
                             </p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const AboutUs = () => {
                         <img src="/images/5.jpg" alt="Our Vision" style={styles.image} />
                         <div style={styles.textContainer}>
                             <p style={styles.paragraph}>
-                                Our vision is to establish Jabreel Fumigation Services as the most trusted and innovative provider of cleaning and pest control solutions in the region. We aim to set the benchmark for excellence by continuously improving our services and adopting the latest advancements in cleaning and pest management technologies. By focusing on innovation, reliability, and customer satisfaction, we aspire to be the first choice for individuals and businesses seeking comprehensive solutions for their cleaning and pest control needs. Our long-term goal is to create a safer, healthier environment for future generations through our unwavering dedication to sustainability and quality.
+                                Our vision is to establish Jibreel Fumigation Services as the most trusted and innovative provider of cleaning and pest control solutions in the region. We aim to set the benchmark for excellence by continuously improving our services and adopting the latest advancements in cleaning and pest management technologies. By focusing on innovation, reliability, and customer satisfaction, we aspire to be the first choice for individuals and businesses seeking comprehensive solutions for their cleaning and pest control needs. Our long-term goal is to create a safer, healthier environment for future generations through our unwavering dedication to sustainability and quality.
                             </p>
                         </div>
                     </div>
@@ -168,6 +168,29 @@ const styles = {
         fontSize: '1.2rem',
         lineHeight: '1.8',
         color: '#555',
+    },
+    /* New Media Query */
+    '@media (max-width: 768px)': {
+        contentRow: {
+            flexDirection: 'column',
+            textAlign: 'center',
+        },
+        contentRowReverse: {
+            flexDirection: 'column',
+            textAlign: 'center',
+        },
+        image: {
+            margin: '10px 0',
+            maxWidth: '100%',
+            height: 'auto',
+        },
+        // textContainer: {
+        //     padding: '10px',
+        // },
+        // heading: {
+        //     fontSize: '1.8rem',
+        //     marginBottom: '10px',
+        // },
     },
 };
 

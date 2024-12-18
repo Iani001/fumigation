@@ -26,7 +26,7 @@ const Navbar = () => {
                 <Link to="/" style={styles.logo}>
                     <img src={ReactLogo} alt="Logo" style={styles.logoImg} />
                     {/* Optional: Add text next to the logo */}
-                    <h1 style={styles.logoText}>Jabreel Cleaners and Pest Control</h1>
+                    <h1 style={styles.logoText}>Jibreel Cleaners and Pest Control</h1>
                 </Link>
                 <nav style={styles.navbar}>
                     <ul style={styles.navLinks}>
