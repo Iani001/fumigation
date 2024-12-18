@@ -31,8 +31,8 @@ const AboutUs = () => {
                 {/* Our Mission Section */}
                 <div style={styles.sectionContainer}>
                     <h2 style={styles.heading}>Our Mission</h2>
-                    <div style={styles.contentRowReverse}>
-                        <img src="/images/p.jpeg" alt="Our Mission" style={styles.image} />
+                    <div style={styles.contentRow}>
+                        <img src="/images/matu.jpg" alt="Our Mission" style={styles.image} />
                         <div style={styles.textContainer}>
                             <p style={styles.paragraph}>
                                 Our mission is rooted in providing unparalleled cleaning and pest control solutions that not only meet but exceed our clients' expectations. We are committed to delivering high-quality services that enhance the safety and hygiene of residential, commercial, and industrial spaces. At Jibreel, we focus on sustainability, utilizing eco-conscious products and practices that ensure long-term benefits for both our clients and the environment. We understand the importance of trust and reliability, which is why we strive to build lasting relationships with our clients through outstanding customer service and dependable solutions.
@@ -57,7 +57,7 @@ const AboutUs = () => {
                 {/* Why Choose Us Section */}
                 <div style={styles.sectionContainer}>
                     <h2 style={styles.heading}>Why Choose Us?</h2>
-                    <div style={styles.contentRowReverse}>
+                    <div style={styles.contentRow}>
                         <img src="/images/deep.jpeg" alt="Why Choose Us" style={styles.image} />
                         <div style={styles.textContainer}>
                             <ul style={styles.list}>
@@ -130,7 +130,8 @@ const styles = {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        flexDirection: 'row',
+        // flexDirection: 'row',
+        flexDirection: 'column',
     },
     contentRowReverse: {
         display: 'flex',
@@ -144,7 +145,7 @@ const styles = {
     },
     image: {
         flex: 1,
-        maxWidth: '400px',
+        maxWidth: '60%',
         height: '300px',
         objectFit: 'cover',
         margin: '20px',
