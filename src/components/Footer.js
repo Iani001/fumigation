@@ -1,15 +1,43 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { FaFacebook, FaTiktok, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <footer style={styles.footer}>
-            {/* Navigation Links */}
+           {/* Social Media Icons */}
             <div style={styles.navLinks}>
-                <Link to="/" style={styles.link}>Home</Link>
-                <Link to="/aboutus" style={styles.link}>About Us</Link>
-                <Link to="/services" style={styles.link}>Services</Link>
-                <Link to="/contact" style={styles.link}>Contact</Link>
+                <a
+                    href="https://www.facebook.com/YourFacebookAccount"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={styles.icon}
+                >
+                    <FaFacebook />
+                </a>
+                <a
+                    href="https://www.tiktok.com/@YourTikTokAccount"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={styles.icon}
+                >
+                    <FaTiktok />
+                </a>
+                <a
+                    href="https://twitter.com/YourTwitterAccount"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={styles.icon}
+                >
+                    <FaTwitter />
+                </a>
+                <a
+                    href="https://wa.me/YourWhatsAppNumber"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={styles.icon}
+                >
+                    <FaWhatsapp />
+                </a>
             </div>
 
             {/* Divider */}
@@ -18,7 +46,7 @@ const Footer = () => {
             {/* Copyright and Developer Info */}
             <div style={styles.info}>
                 <p style={styles.copyright}>
-                    © 2024 Fumigation Services. All rights reserved.
+                    © 2025 Fumigation Services. All rights reserved.
                 </p>
                 <p style={styles.developer}>
                     Designed By {' '}
@@ -51,6 +79,11 @@ const styles = {
         gap: '20px',
         marginBottom: '10px',
         // color: '#7ED348',
+    },
+    icon: {
+        color: '#7ED348', // Light green color for icons
+        fontSize: '1.5rem',
+        transition: 'color 0.3s ease',
     },
     link: {
         color: '#7ED348',
@@ -85,27 +118,3 @@ const styles = {
 export default Footer;
 
 
-
-// import React from 'react';
-
-// const Footer = () => {
-//     return (
-//         <footer style={styles.footer}>
-//             <p>© 2024 Fumigation Services. All rights reserved.</p>
-//         </footer>
-//     );
-// };
-
-// const styles = {
-//     footer: {
-//         textAlign: 'center',
-//         padding: '10px 20px',
-//         backgroundColor: '#01377D',  //light blue
-//         color: '#fff',
-//         // position: 'fixed',
-//         bottom: 0,
-//         width: '100%',
-//     },
-// };
-
-// export default Footer;

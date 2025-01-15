@@ -11,24 +11,24 @@ const FAQ = () => {
 
     const faqData = [
         {
-            question: "What services does Jibreel offer?",
-            answer: "Jibreel specializes in providing cutting-edge solutions, including web development, IT consulting, cybersecurity services, and custom software development tailored to your needs.",
+            question: "What services does Jibreel Cleaners and Pest Control offer?",
+            answer: "We provide a wide range of services, including general house cleaning, fumigation (pest control), sofa and mattress cleaning, landscaping, office deep cleaning, car interior cleaning, pressure washing, and more. Visit our services page for a complete list.",
         },
         {
-            question: "Why should I choose Jibreel for my cleaning needs?",
-            answer: "Jibreel is committed to delivering innovative, reliable, and cost-effective solutions. Our team of experts ensures top-notch quality, customer satisfaction, and timely project delivery.",
+            question: "Are your cleaning products eco-friendly?",
+            answer: "Yes, we use eco-friendly and non-toxic products to ensure the safety of your family, pets, and the environment.",
         },
         {
-            question: "How does Jibreel ensure data security for its clients?",
-            answer: "We prioritize data security by implementing robust encryption, multi-layer access controls, and strict compliance with data protection regulations to safeguard your information.",
+            question: " Can Jibreel customize a cleaning package?",
+            answer: "Absolutely! We offer customizable cleaning packages tailored to your specific needs and preferences.",
         },
         {
-            question: "Can Jibreel help my business transition to the cloud?",
-            answer: "Absolutely! Jibreel offers comprehensive cloud migration services, ensuring a smooth transition to cloud-based solutions while maintaining operational continuity and security.",
+            question: "How do you ensure the quality of your cleaning services?",
+            answer: "Our team consists of experienced professionals, and we follow a strict quality control process to ensure client satisfaction.",
         },
         {
-            question: "How can I get started with Jibreel?",
-            answer: "Getting started is easy! Simply visit our Contact page, fill out the inquiry form, and one of our experts will reach out to discuss your project and provide a customized solution.",
+            question: "How much do your services cost?",
+            answer: "Pricing depends on the type of service, the size of the area, and the level of work required. Contact us for a free quote.",
         },
     ];
 
