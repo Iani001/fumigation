@@ -15,7 +15,7 @@ const Footer = () => {
                     <FaFacebook />
                 </a>
                 <a
-                    href="https://www.tiktok.com/@jibreelcleaners"
+                    href="https://www.tiktok.com/@jibreel.cleaners"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={styles.icon}
