@@ -7,7 +7,7 @@ const Footer = () => {
            {/* Social Media Icons */}
             <div style={styles.navLinks}>
                 <a
-                    href="https://www.facebook.com/YourFacebookAccount"
+                    href="https://www.facebook.com/jibreelcleaners"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={styles.icon}
@@ -15,7 +15,7 @@ const Footer = () => {
                     <FaFacebook />
                 </a>
                 <a
-                    href="https://www.tiktok.com/@YourTikTokAccount"
+                    href="https://www.tiktok.com/@jibreelcleaners"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={styles.icon}
@@ -23,7 +23,7 @@ const Footer = () => {
                     <FaTiktok />
                 </a>
                 <a
-                    href="https://twitter.com/YourTwitterAccount"
+                    href="https://twitter.com/jibreelcleaners"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={styles.icon}
@@ -31,7 +31,7 @@ const Footer = () => {
                     <FaTwitter />
                 </a>
                 <a
-                    href="https://wa.me/YourWhatsAppNumber"
+                    href="https://wa.me/0113057911"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={styles.icon}

@@ -1,3 +1,4 @@
+import { HelmetProvider } from 'react-helmet-async';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
@@ -9,6 +10,7 @@ import FAQs from './pages/FAQs';
 // const
 function App  ()  {
     return (
+        <HelmetProvider>
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -18,6 +20,7 @@ function App  ()  {
                  <Route path="/contact" element={<Contact />} />   
             </Routes>
         </Router>
+        </HelmetProvider>
     );
 };
 
