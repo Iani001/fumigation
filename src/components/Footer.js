@@ -31,7 +31,7 @@ const Footer = () => {
                     <FaTwitter />
                 </a>
                 <a
-                    href="https://wa.me/0113057911"
+                    href="https://wa.me/+254113057911"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={styles.icon}
