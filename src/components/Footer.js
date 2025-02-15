@@ -31,7 +31,8 @@ const Footer = () => {
                     <FaTwitter />
                 </a>
                 <a
-                    href="https://wa.me/254113057911"
+                    // href="https://wa.me/254113057911"
+                    href="https://wa.me/254113057911?text=Hello%20Jibreel%20Cleaners,%20I%20need%20your%20services"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={styles.icon}
